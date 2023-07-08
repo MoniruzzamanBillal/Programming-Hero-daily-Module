@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* shared css  */
+.btnPrimary {
+  border-radius: 0.3125rem;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 28px;
+  cursor: pointer;
+}
+
+.primaryColor {
+  color: #fd6e0a;
+}
+
+.header {
+  background-color: #fff8f3;
+}
+
+/* nav related styles  */
+.navbar {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+}
+
+/* left side of navbar */
+.leftHeading {
+  /* background-color: aqua; */
+}
+.navHeading {
+  color: #181818;
+  font-size: 2.8125rem;
+}
+
+/* right side of navbar */
+.navRight {
+  /* background-color: burlywood; */
+}
+
+.navRight > ul {
+  display: flex;
+  align-items: center;
+}
+
+.navRight li {
+  list-style: none;
+}
+.navRight a {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+/* nav related style ends  */
+
+/* banner related style  */
+.banner {
+  /* background-color: aqua; */
+  background-image: url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 650px 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 22px 0px 140px;
+  margin-bottom: 50px;
+}
+
+.bannerLeft {
+  /* background-color: aquamarine; */
+  width: 40rem;
+}
+.bannerTitle {
+  color: #474747;
+  font-size: 40px;
+}
+.bannerHeading {
+  color: #181818;
+  font-size: 75px;
+  margin-bottom: 22px;
+}
+
+.bannerDescription {
+  max-width: 585px;
+  margin-bottom: 24px;
+}
+
+.contactBtn {
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
+}
+
+.bannerRight {
+  /* background-color: burlywood; */
+}
+
+.bannerImageContainer {
+  width: 480px;
+  height: 480px;
+}
+
+.bannerImageContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+/* banner style ends  */
+
+/* about section starts  */
+.aboutSection {
+  margin: auto;
+  border-radius: 10px;
+  background: #fff8f3;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  margin-bottom: 50px;
+}
+
+.aboutHeading {
+  color: #181818;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.aboutDescription {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.aboutInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* about section ends  */
+
+/* what i do section starts  */
+.whatIDo {
+  margin-bottom: 50px;
+}
+
+.whatIdoTopWrapper {
+  max-width: 68%;
+  margin: auto;
+}
+
+.whatHeading {
+  color: #181818;
+  font-size: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.whatdescription {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.whatCardSection {
+  max-width: 84%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardSection {
+  width: 267px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 24px 24px;
+  cursor: pointer;
+}
+
+.cardTopIcon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 25px;
+}
+
+.cardTopIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardHeading {
+  color: #181818;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.cardDescription {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* what i do section ends  */
