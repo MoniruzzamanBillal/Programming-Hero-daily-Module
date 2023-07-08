@@ -27,7 +27,6 @@
 
 /* nav related styles  */
 .navbar {
-  /* background-color: blueviolet; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +35,6 @@
 
 /* left side of navbar */
 .leftHeading {
-  /* background-color: aqua; */
 }
 .navHeading {
   color: #181818;
@@ -45,7 +43,6 @@
 
 /* right side of navbar */
 .navRight {
-  /* background-color: burlywood; */
 }
 
 .navRight > ul {
@@ -65,7 +62,6 @@
 
 /* banner related style  */
 .banner {
-  /* background-color: aqua; */
   background-image: url("images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -78,7 +74,6 @@
 }
 
 .bannerLeft {
-  /* background-color: aquamarine; */
   width: 40rem;
 }
 .bannerTitle {
@@ -103,7 +98,6 @@
 }
 
 .bannerRight {
-  /* background-color: burlywood; */
 }
 
 .bannerImageContainer {
@@ -222,12 +216,10 @@
 
 /* ? resume section starts  */
 .resumeSection {
-  /* background-color: aquamarine; */
   margin-bottom: 65px;
 }
 
 .resumeContainer {
-  /* background-color: chartreuse; */
   width: 92%;
   margin: auto;
 }
@@ -240,14 +232,11 @@
 }
 
 .resumeFlexWrapper {
-  /* background-color: rgba(0, 255, 255, 0.754); */
   display: flex;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
 }
 
 .resumeLeft {
-  /* background-color: rgb(227, 90, 90); */
   width: 40%;
 }
 
@@ -296,21 +285,19 @@
 
 .footerContainer {
   background-color: #fff8f3;
-  padding-bottom: 30px;
+  padding: 34px 4px;
 }
 
 .footerWrapper {
   padding: 6px;
-  width: 95%;
+  width: 88%;
   margin: auto;
-  /* background-color: aquamarine; */
   display: flex;
   justify-content: space-around;
 }
 
 .footerLeft {
-  /* background-color: pink; */
-  width: 48%;
+  width: 46%;
 }
 
 .leftHeading {
@@ -326,25 +313,36 @@
   line-height: 28px;
 }
 
-.iconDection {
-  /* background-color: rebeccapurple; */
+.iconSection {
   width: 16%;
   display: flex;
   justify-content: space-between;
   color: #fd6e0a;
 }
-.iconDection a {
+.iconSection a {
   color: #fd6e0a;
 }
 
 .footerRight {
-  /* background-color: blue; */
   width: 48%;
 }
 .footerRightHeading {
-  color: var(--dark-01, #181818);
+  color: #181818;
   font-size: 19px;
   margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 22px;
+  padding: 16px 32px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
 }
 
 /* footer style ends */
