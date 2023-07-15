@@ -1,0 +1,14 @@
+.hover:hover {
+  background-color: aqua;
+  color: rgb(0, 4, 255);
+}
+
+input:focus {
+  color: rgb(253, 0, 0);
+  background-color: rgb(222, 196, 246);
+  outline: 0;
+}
+
+a:visited {
+  color: chartreuse;
+}

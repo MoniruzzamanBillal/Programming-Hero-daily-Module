@@ -1,0 +1,119 @@
+/* work sans font: ; from google font  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* shared css  */
+
+.orangeBg {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.orangeColor {
+  background: #ff900e;
+}
+
+/* header css starts  */
+
+.headerClass {
+  background-color: rgb(98, 133, 238);
+}
+
+.headerContainer {
+  background-color: rgba(226, 134, 254, 0.878);
+  width: 84%;
+  margin: auto;
+  padding: 2px;
+}
+
+.navClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft {
+  background-color: yellow;
+  width: 48%;
+}
+
+.navHeading {
+  color: #131313;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navRight {
+  background-color: rgb(243, 106, 106);
+  width: 38%;
+}
+
+.navRight > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navRight li {
+  list-style: none;
+}
+
+.navRight li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* header css ends  */
+/*  */
+
+/* media query for responsiveness  */
+/* for large device  */
+@media screen and (max-width: 992px) {
+  /* navbar media query */
+  .navHeading {
+    font-size: 1.3rem;
+  }
+
+  .navRight {
+    background-color: rgb(138, 243, 106);
+    width: 42%;
+  }
+  .navRight li a {
+    font-size: 1.1rem;
+  }
+}
+
+/* for medium device  */
+@media screen and (max-width: 768px) {
+  .navHeading {
+    font-size: 1.2rem;
+  }
+  /* navbar media query */
+  .navRight {
+    background-color: rgb(243, 106, 127);
+    width: 48%;
+  }
+  .navRight li a {
+    font-size: 1rem;
+  }
+}
+
+/* for small device  */
+@media screen and (max-width: 576px) {
+  /* navbar media query */
+
+  .navHeading {
+    font-size: 1rem;
+  }
+  .navRight {
+    background-color: rgb(106, 140, 243);
+    width: 51%;
+  }
+  .navRight li a {
+    font-size: 0.9rem;
+  }
+}
