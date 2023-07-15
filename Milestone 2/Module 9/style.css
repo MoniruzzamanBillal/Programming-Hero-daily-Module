@@ -19,12 +19,12 @@
 /* header css starts  */
 
 .headerClass {
-  background-color: rgb(98, 133, 238);
+  /* background-color: rgb(98, 133, 238); */
 }
 
 .headerContainer {
-  background-color: rgba(226, 134, 254, 0.878);
-  width: 84%;
+  /* background-color: rgba(226, 134, 254, 0.878); */
+  width: 85%;
   margin: auto;
   padding: 2px;
 }
@@ -33,10 +33,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .navLeft {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 48%;
 }
 
@@ -47,8 +48,8 @@
 }
 
 .navRight {
-  background-color: rgb(243, 106, 106);
-  width: 38%;
+  /* background-color: rgb(243, 106, 106); */
+  width: 36%;
 }
 
 .navRight > ul {
@@ -63,11 +64,74 @@
 .navRight li a {
   text-decoration: none;
   color: #424242;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
+/* landing page starts  */
+
+.landingPage {
+  /* background-color: #ff900e; */
+}
+
+.landingPageContainer {
+  /* background-color: rgb(159, 159, 244); */
+}
+
+.landingPageTop {
+  /* background-color: rgb(238, 163, 163); */
+}
+
+.landingTopContainer {
+  /* background-color: rgb(141, 237, 141); */
+  width: 62%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+
+.landingPageHead {
+  color: #131313;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.landingPagePara {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.landingPageBTN {
+  margin-bottom: 0.5rem;
+}
+
+.exploreBTN {
+  border-radius: 8px;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.landingPageBottom {
+  /* background-color: rgb(238, 238, 182); */
+}
+
+/* landing page ends */
+
 /* header css ends  */
+
 /*  */
 
 /* media query for responsiveness  */
@@ -79,11 +143,26 @@
   }
 
   .navRight {
-    background-color: rgb(138, 243, 106);
+    /* background-color: rgb(138, 243, 106); */
     width: 42%;
   }
   .navRight li a {
     font-size: 1.1rem;
+  }
+
+  /* landing page media query  */
+  .landingTopContainer {
+    /* background-color: rgb(247, 237, 133); */
+    width: 72%;
+  }
+
+  .landingPageHead {
+    font-size: 1.1rem;
+  }
+
+  .landingPagePara {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
   }
 }
 
@@ -94,26 +173,64 @@
   }
   /* navbar media query */
   .navRight {
-    background-color: rgb(243, 106, 127);
+    /* background-color: rgb(243, 106, 127); */
     width: 48%;
   }
   .navRight li a {
     font-size: 1rem;
+  }
+
+  /* landing page media query  */
+  .landingTopContainer {
+    /* background-color: rgb(117, 203, 246); */
+    width: 86%;
+  }
+
+  .landingPageHead {
+    font-size: 1rem;
+  }
+
+  .landingPagePara {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+  .exploreBTN {
+    padding: 9px 12px;
+    color: #fff;
+    font-size: 0.8rem;
   }
 }
 
 /* for small device  */
 @media screen and (max-width: 576px) {
   /* navbar media query */
-
   .navHeading {
     font-size: 1rem;
   }
   .navRight {
-    background-color: rgb(106, 140, 243);
+    /* background-color: rgb(106, 140, 243); */
     width: 51%;
   }
   .navRight li a {
     font-size: 0.9rem;
+  }
+
+  /* landing page media query  */
+  .landingTopContainer {
+    /* background-color: rgb(117, 246, 246); */
+    width: 94%;
+  }
+  .landingPageHead {
+    font-size: 0.8rem;
+  }
+  .landingPagePara {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .exploreBTN {
+    padding: 8px 10px;
+    font-size: 0.7rem;
   }
 }
