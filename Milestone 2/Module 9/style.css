@@ -20,7 +20,6 @@
 
 .headerClass {
   /* background-color: rgb(119, 151, 246); */
-
   margin-bottom: 2.8rem;
 }
 
@@ -227,6 +226,95 @@
 
 /* team features ends */
 
+/* fact section css starts  */
+.factContainer {
+  /* background-color: rgba(174, 114, 235, 0.862); */
+  margin-bottom: 2.8rem;
+}
+
+.factWrapper {
+  /* background-color: rgb(243, 165, 165); */
+  width: 85%;
+  margin: auto;
+}
+
+.factTop {
+  /* background-color: rgba(151, 241, 151, 0.933); */
+  margin-bottom: 2.2rem;
+}
+
+.factTopHeading {
+  /* background-color: red; */
+  margin-bottom: 0.7rem;
+  color: #131313;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.factTopPara {
+  /* background-color: rgb(89, 225, 77); */
+  width: 47%;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.factBottomContainer {
+  /* background-color: rgba(157, 242, 242, 0.906); */
+}
+
+.factBottomWrapper {
+  /* background-color: rgba(207, 194, 248, 0.73); */
+  width: 94%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.factBottomCard {
+  /* background-color: rgb(207, 247, 245); */
+  border-radius: 6px;
+  border: 1px solid #ff900e;
+  width: 20%;
+  padding: 1.6rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardTop {
+  /* background-color: red; */
+  margin-bottom: 0.8rem;
+  height: 29%;
+  width: 22%;
+}
+
+.cardTop img {
+  height: 100%;
+  width: 100%;
+}
+
+.cardMid {
+  /* background-color: rgb(139, 139, 255); */
+  margin-bottom: 0.6rem;
+  color: #424242;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.cardBottom {
+  /* background-color: rgb(141, 243, 141); */
+  margin-bottom: 0.4rem;
+  color: #727272;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* fact section css ends */
+
 /*  */
 
 /* media query for responsiveness  */
@@ -237,46 +325,55 @@
   .navHeading {
     font-size: 1.3rem;
   }
-
   .navRight {
     width: 42%;
   }
   .navRight li a {
     font-size: 1.1rem;
   }
-
   /* landing page media query  */
   .landingTopContainer {
     width: 72%;
   }
-
   .landingPageHead {
     font-size: 1.1rem;
   }
-
   .landingPagePara {
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
 
   /* features section starts  */
-
   .featuresRightTop {
     font-size: 1rem;
     width: 94%;
   }
-
   .featuresRightPara {
     font-size: 0.9rem;
     line-height: 1.5rem;
   }
-
   .featureBTN {
     padding: 10px 18px;
     font-size: 0.8rem;
   }
-
   /* features section ends */
+
+  /* fact section css starts  */
+  .factTopPara {
+    width: 59%;
+    color: #727272;
+  }
+  .factBottomCard {
+    width: 21%;
+    padding: 1.5rem 0.8rem;
+  }
+  .cardTop {
+    /* background-color: red; */
+    margin-bottom: 0.8rem;
+    height: 28%;
+    width: 24%;
+  }
+  /* fact section css ends */
 }
 
 /* for medium device  */
@@ -296,16 +393,13 @@
   .landingTopContainer {
     width: 86%;
   }
-
   .landingPageHead {
     font-size: 1rem;
   }
-
   .landingPagePara {
     font-size: 0.9rem;
     line-height: 1.3rem;
   }
-
   .exploreBTN {
     padding: 9px 12px;
     color: #fff;
@@ -322,23 +416,41 @@
   .featureLeftWrapper {
     grid-gap: 0.3rem;
   }
-
   .featuresRightTop {
     font-size: 0.8rem;
     width: 100%;
   }
-
   .featuresRightPara {
     font-size: 0.8rem;
     line-height: 1.4rem;
   }
-
   .featureBTN {
     padding: 8px 17px;
     font-size: 0.7rem;
   }
-
   /* features section ends */
+
+  /* fact section css starts  */
+  .factBottomWrapper {
+    /* background-color: rgba(252, 71, 43, 0.73); */
+    width: 96%;
+    margin: auto;
+  }
+  .factTopPara {
+    width: 86%;
+    color: #727272;
+  }
+  .factBottomCard {
+    width: 24%;
+    padding: 1.2rem 0.5rem;
+  }
+  .cardMid {
+    font-size: 1rem;
+  }
+  .cardBottom {
+    font-size: 0.8rem;
+  }
+  /* fact section css ends */
 }
 
 /* for small device  */
@@ -365,7 +477,6 @@
     font-size: 0.8rem;
     line-height: 1.3rem;
   }
-
   .exploreBTN {
     padding: 8px 10px;
     font-size: 0.7rem;
@@ -376,7 +487,6 @@
     display: flex;
     flex-direction: column;
   }
-
   .featureLeftWrapper {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -386,34 +496,49 @@
     display: flex;
     justify-content: center;
   }
-
   .featureLeftWrapper {
     width: 100%;
   }
-
   .featureLeftWrapper img {
     width: 100%;
     height: 98%;
   }
-
   .teamFeaturesRight {
     width: 90%;
   }
-
   .featuresRightTop {
     font-size: 1rem;
     width: 96%;
   }
-
   .featuresRightPara {
     font-size: 1rem;
     line-height: 1.6rem;
   }
-
   .featureBTN {
     padding: 10px 20px;
     font-size: 0.8rem;
   }
-
   /* features section ends */
+
+  /* fact section css starts  */
+  .factTopPara {
+    width: 100%;
+    color: #727272;
+  }
+  .factBottomWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 92%;
+    margin: auto;
+
+    grid-gap: 8px;
+  }
+  .factBottomCard {
+    width: 88%;
+    padding: 1.9rem 0.9rem;
+  }
+  .cardBottom {
+    font-size: 0.9rem;
+  }
+  /* fact section css ends */
 }
