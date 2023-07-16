@@ -19,14 +19,17 @@
 /* header css starts  */
 
 .headerClass {
-  /* background-color: rgb(98, 133, 238); */
+  /* background-color: rgb(119, 151, 246); */
+  /* margin-bottom: 40px; */
+  margin-bottom: 2.8rem;
 }
 
 .headerContainer {
-  /* background-color: rgba(226, 134, 254, 0.878); */
+  /* background-color: rgba(243, 246, 174, 0.878); */
   width: 85%;
   margin: auto;
-  padding: 2px;
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
 
 .navClass {
@@ -80,6 +83,7 @@
 
 .landingPageTop {
   /* background-color: rgb(238, 163, 163); */
+  margin-bottom: 30px;
 }
 
 .landingTopContainer {
@@ -125,7 +129,18 @@
 }
 
 .landingPageBottom {
-  /* background-color: rgb(238, 238, 182); */
+  /* background-color: rgb(180, 244, 198); */
+}
+
+.landingPageBottomContainer {
+  /* background-color: #f7bd7c; */
+  display: flex;
+  justify-content: center;
+}
+
+.landingPageBottomContainer img {
+  height: 95%;
+  width: 95%;
 }
 
 /* landing page ends */
