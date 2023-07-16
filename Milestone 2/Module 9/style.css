@@ -20,7 +20,7 @@
 
 .headerClass {
   /* background-color: rgb(119, 151, 246); */
-  /* margin-bottom: 40px; */
+
   margin-bottom: 2.8rem;
 }
 
@@ -139,17 +139,98 @@
 }
 
 .landingPageBottomContainer img {
-  height: 95%;
-  width: 95%;
+  height: 100%;
+  width: 100%;
 }
 
 /* landing page ends */
 
 /* header css ends  */
 
+/* team features starts  */
+.teamFeatures {
+  /* background-color: rgb(193, 141, 246); */
+  margin-bottom: 2.8rem;
+}
+
+.teamFeaturesContainer {
+  /* background-color: rgb(167, 242, 217); */
+  width: 80%;
+  margin: auto;
+}
+
+.teamFeaturesContainerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teamFeaturesLeft {
+  /* background-color: rgb(246, 125, 149); */
+  width: 56%;
+}
+
+.featureLeftWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.5rem;
+}
+.featureLeftWrapper img {
+  width: 98%;
+  height: 98%;
+}
+
+.teamFeaturesRight {
+  /* background-color: rgb(137, 151, 245); */
+  width: 42%;
+}
+
+.BlackColor {
+  color: #131313;
+  font-weight: 700;
+}
+
+.orangeText {
+  color: #ff900e;
+  font-weight: 700;
+}
+
+.featuresRightTop {
+  color: #727272;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 90%;
+  margin-bottom: 0.9rem;
+}
+
+.featuresRightPara {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin-bottom: 0.9rem;
+}
+
+.featureBTN {
+  border-radius: 5px;
+  background: #ff900e;
+  padding: 12px 22px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* team features ends */
+
 /*  */
 
 /* media query for responsiveness  */
+/*  */
 /* for large device  */
 @media screen and (max-width: 992px) {
   /* navbar media query */
@@ -158,7 +239,6 @@
   }
 
   .navRight {
-    /* background-color: rgb(138, 243, 106); */
     width: 42%;
   }
   .navRight li a {
@@ -167,7 +247,6 @@
 
   /* landing page media query  */
   .landingTopContainer {
-    /* background-color: rgb(247, 237, 133); */
     width: 72%;
   }
 
@@ -179,6 +258,25 @@
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
+
+  /* features section starts  */
+
+  .featuresRightTop {
+    font-size: 1rem;
+    width: 94%;
+  }
+
+  .featuresRightPara {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .featureBTN {
+    padding: 10px 18px;
+    font-size: 0.8rem;
+  }
+
+  /* features section ends */
 }
 
 /* for medium device  */
@@ -188,7 +286,6 @@
   }
   /* navbar media query */
   .navRight {
-    /* background-color: rgb(243, 106, 127); */
     width: 48%;
   }
   .navRight li a {
@@ -197,7 +294,6 @@
 
   /* landing page media query  */
   .landingTopContainer {
-    /* background-color: rgb(117, 203, 246); */
     width: 86%;
   }
 
@@ -215,6 +311,34 @@
     color: #fff;
     font-size: 0.8rem;
   }
+
+  /* features section starts  */
+  .teamFeaturesLeft {
+    width: 51%;
+  }
+  .teamFeaturesRight {
+    width: 47%;
+  }
+  .featureLeftWrapper {
+    grid-gap: 0.3rem;
+  }
+
+  .featuresRightTop {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .featuresRightPara {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+  }
+
+  .featureBTN {
+    padding: 8px 17px;
+    font-size: 0.7rem;
+  }
+
+  /* features section ends */
 }
 
 /* for small device  */
@@ -224,7 +348,6 @@
     font-size: 1rem;
   }
   .navRight {
-    /* background-color: rgb(106, 140, 243); */
     width: 51%;
   }
   .navRight li a {
@@ -233,7 +356,6 @@
 
   /* landing page media query  */
   .landingTopContainer {
-    /* background-color: rgb(117, 246, 246); */
     width: 94%;
   }
   .landingPageHead {
@@ -248,4 +370,50 @@
     padding: 8px 10px;
     font-size: 0.7rem;
   }
+
+  /* features section starts  */
+  .teamFeaturesContainerWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featureLeftWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teamFeaturesLeft {
+    margin-bottom: 2.4rem;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featureLeftWrapper {
+    width: 100%;
+  }
+
+  .featureLeftWrapper img {
+    width: 100%;
+    height: 98%;
+  }
+
+  .teamFeaturesRight {
+    width: 90%;
+  }
+
+  .featuresRightTop {
+    font-size: 1rem;
+    width: 96%;
+  }
+
+  .featuresRightPara {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .featureBTN {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+
+  /* features section ends */
 }
