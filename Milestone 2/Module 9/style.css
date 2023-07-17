@@ -57,10 +57,6 @@
 }
 
 /* landing page starts  */
-.landingPage {
-}
-.landingPageContainer {
-}
 .landingPageTop {
   margin-bottom: 30px;
 }
@@ -100,8 +96,7 @@
   outline: none;
   cursor: pointer;
 }
-.landingPageBottom {
-}
+
 .landingPageBottomContainer {
   display: flex;
   justify-content: center;
@@ -180,6 +175,87 @@
 }
 /* team features ends */
 
+/* some features starts  */
+
+.someFeaturesWrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.someFeaturesLeft {
+  width: 48%;
+}
+.featuresLeftTop {
+  width: 82%;
+  color: #131313;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-left: 0.3rem solid #ff900e;
+  padding-left: 1rem;
+  margin-bottom: 1.3rem;
+}
+.featuresLeftPara {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+.featuresLeftCard {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 0.9rem;
+  cursor: pointer;
+}
+.featuresCardWrapper {
+  width: 99%;
+  margin: auto;
+  padding: 1rem 0.8rem;
+}
+.featuresCardTo {
+  color: #131313;
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.featuresCardPara {
+  color: #727272;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+.someFeaturesRight {
+  width: 47%;
+}
+.featuresRightImg {
+  width: 99%;
+  height: 90%;
+}
+.featuresRightImg img {
+  height: 100%;
+  width: 100%;
+}
+.featuresRightEXP {
+  position: relative;
+  width: 35%;
+  top: -50px;
+  left: -40px;
+  border-radius: 5px;
+  background: #ff900e;
+  padding: 0.6rem 0.3rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+.expHeading {
+  font-size: 2rem;
+}
+.expLeft {
+  font-size: 0.9rem;
+}
+/* some features ends */
+
 /* fact section css starts  */
 .factContainer {
   margin-bottom: 2.8rem;
@@ -204,9 +280,7 @@
   font-weight: 400;
   line-height: 1.5rem;
 }
-.factBottomContainer {
-  /* background-color: rgba(157, 242, 242, 0.906); */
-}
+
 .factBottomWrapper {
   /* background-color: rgba(207, 194, 248, 0.73); */
   width: 94%;
@@ -281,8 +355,7 @@
   font-weight: 400;
   line-height: 1.5rem;
 }
-.sponsorBottom {
-}
+
 .sponsorBottomContainer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -363,6 +436,38 @@
     font-size: 0.8rem;
   }
   /* features section ends */
+
+  /* spme features starts  */
+
+  .someFeaturesLeft {
+    width: 46%;
+  }
+
+  .someFeaturesRight {
+    width: 48%;
+  }
+
+  .featuresRightImg {
+    width: 99%;
+    height: 99%;
+  }
+
+  .featuresRightEXP {
+    width: 42%;
+    top: -45px;
+    left: -40px;
+    padding: 0.3rem 0.2rem;
+    line-height: 1.5rem;
+  }
+
+  .expHeading {
+    font-size: 1rem;
+  }
+  .expLeft {
+    font-size: 0.9rem;
+  }
+
+  /* spme features ends */
 
   /* fact section css starts  */
   .factTopPara {
@@ -451,6 +556,35 @@
     font-size: 0.7rem;
   }
   /* features section ends */
+
+  /* some features starts  */
+
+  .someFeaturesWrapper {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .someFeaturesLeft {
+    width: 80%;
+  }
+
+  .someFeaturesRight {
+    width: 78%;
+  }
+  .featuresRightEXP {
+    width: 40%;
+    top: -43px;
+    left: -60px;
+    padding: 0.6rem 0.1rem;
+    line-height: 1.9rem;
+  }
+
+  /* some features ends  */
 
   /* fact section css starts  */
   .factBottomWrapper {
@@ -565,6 +699,37 @@
     font-size: 0.8rem;
   }
   /* features section ends */
+
+  /* some features starts  */
+  .someFeaturesLeft {
+    width: 90%;
+  }
+
+  .featuresLeftTop {
+    width: 98%;
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .featuresLeftPara {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .someFeaturesRight {
+    width: 88%;
+  }
+
+  .featuresRightEXP {
+    width: 40%;
+    top: -40px;
+    left: -50px;
+    padding: 0.5rem 0.1rem;
+    line-height: 1.7rem;
+  }
+
+  /* some features ends */
 
   /* fact section css starts  */
   .factTopPara {
