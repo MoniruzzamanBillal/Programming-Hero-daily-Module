@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="bodyTop page1">
+      <!--  -->
+      <header>
+        <h1 class="text-5xl text-center mt-8">
+          Welcome to
+          <span class="font-semibold text-violet-600">baap er hotel</span>
+        </h1>
+      </header>
+      <!--  -->
+
+      <!-- login page  -->
+      <section class="bg-blue-200 w-9/12 mx-auto mt-12 p-10">
+        <h3 class="text-4xl font-semibold">Please Login</h3>
+        <div class="mt-4">
+          <input
+            class="w-10/12 block mb-4 px-3 py-2 rounded-lg"
+            type="text"
+            id="nameInput"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            class="w-10/12 block mb-4 px-3 py-2 rounded-lg"
+            type="password"
+            name=""
+            id="password"
+            placeholder="Your Password"
+            required
+          />
+          <button
+            class="bg-amber-400 px-8 py-2 text-white rounded-lg hover:bg-amber-600 transition duration-150 ease-in-out"
+            id="logIn"
+          >
+            Log in
+          </button>
+          <input class="text-right" id="showPassword" type="checkbox" />
+          <label for="showPassword" class="cursor-pointer">
+            Show Password</label
+          >
+        </div>
+      </section>
+      <!--  -->
+    </div>
+    <!--  -->
+
+    <div class="bodyBottom page2">
+      <section>
+        <h1 class="text-5xl text-center mt-8 mb-10 text-green-600">
+          Baap er Hotel!!
+        </h1>
+      </section>
+
+      <!-- top section starts  -->
+      <div class="topSection mt-6">
+        <div class="grid grid-cols-3 gap-5 w-3/4 mx-auto mt-6">
+          <div class="bg-gray-800 p-4 font-medium text-amber-500 rounded-lg">
+            <h4 class="text-3xl">Deposit</h4>
+            <h2 class="text-6xl">$<span id="deposit-text">00</span></h2>
+          </div>
+          <div class="bg-gray-800 p-4 font-medium text-amber-500 rounded-lg">
+            <h4 class="text-3xl">Withdraw</h4>
+            <h2 class="text-6xl">$<span id="withdraw-text">00</span></h2>
+          </div>
+          <div class="bg-gray-800 p-4 font-medium text-amber-500 rounded-lg">
+            <h4 class="text-3xl">Balance</h4>
+            <h2 class="text-6xl">$<span id="Balance-total-text">500</span></h2>
+          </div>
+        </div>
+      </div>
+      <!-- top section ends  -->
+
+      <!-- deposit and withdraw section -->
+
+      <div class="depositContainer mt-8 w-3/4 mx-auto">
+        <div class="grid grid-cols-2 gap-5">
+          <div
+            class="bg-gradient-to-r from-slate-900 to-stone-500 text-amber-500 p-8 block rounded-xl"
+          >
+            <h3 class="text-3xl mb-4 font-semibold">Your Deposit</h3>
+            <input
+              id="deposit-field"
+              type="number"
+              class="w-3/4 px-4 py-2 rounded-xl font-semibold block text-black"
+              placeholder="$Amount you want to deposit"
+            />
+            <button
+              id="btn-diposit"
+              class="bg-yellow-200 mt-4 px-4 py-2 text-black text-2xl rounded-xl hover:bg-gray-200"
+            >
+              Deposit
+            </button>
+          </div>
+          <div
+            class="bg-gradient-to-r from-slate-900 to-stone-500 text-amber-500 p-8 block rounded-xl"
+          >
+            <h3 class="text-3xl mb-4 font-semibold">Your Withdraw</h3>
+            <input
+              id="withdraw-field"
+              type="number"
+              class="w-3/4 px-4 py-2 rounded-xl font-semibold block text-black"
+              placeholder="$Amount you want to withdraw"
+            />
+            <button
+              id="btn-withdraw"
+              class="bg-yellow-200 mt-4 px-4 py-2 text-black text-2xl rounded-xl hover:bg-gray-200"
+            >
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
