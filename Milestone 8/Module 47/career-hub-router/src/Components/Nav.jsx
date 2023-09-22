@@ -25,7 +25,6 @@ const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleMenu = () => {
-    // console.log("toggle menu click");
     setToggle(!toggle);
   };
 
@@ -50,7 +49,7 @@ const Nav = () => {
                 key={ind}
                 className={`  ${
                   navLinks.length - 1 === ind ? "mr-0" : "mr-8"
-                } text-lg text-color shado  `}
+                } text-lg text-color hover:text-blue-700  `}
               >
                 {ele.element}
               </NavLink>
